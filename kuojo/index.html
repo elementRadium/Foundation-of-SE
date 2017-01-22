@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="banner">
+                <h1>FSE chatroom</h1>
+                <span id="status"></span>
+            </div>
+
+            <div id="historyMsg">
+              
+            </div>
+
+
+            <div class="controls" >
+                <textarea id="messageInput" placeHolder="enter to send"></textarea>
+                <input id="sendBtn" type="button" value="SEND">
+            </div>
+        </div>
+
+        <div id="loginWrapper">
+            <p id="info">Initializing...</p>
+            <div id="nickWrapper">
+                <input type="text" placeHolder="nickname" id="nicknameInput" />
+                <input type="button" value="Login" id="loginBtn" style="height=300px;width=100px;" />
+            </div>
+        </div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="scripts/application.js"></script>
+
+    </body>
+</html>
