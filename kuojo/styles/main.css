@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    background-color: #efefef;
+    font-family: sans-serif;
+}
+.wrapper {
+    width: 500px;
+    height: 640px;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #ddd;
+}
+#loginWrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(5, 5, 5, .6);
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding-top: 200px;
+}
+#nickWrapper {
+    display: none;
+}
+.banner {
+    height: 80px;
+    width: 100%;
+}
+.banner p {
+    float: left;
+    display: inline-block;
+}
+
+#historyMsg {
+    height: 400px;
+    background-color: #fff;
+    overflow: auto;
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.timespan {
+    color: #ddd;
+}
+
+#messageInput {
+    width: 440px;
+    max-width: 440px;
+    height: 90px;
+    max-height: 90px;
+    float:left;
+}
+#sendBtn {
+    width: 50px;
+    height: 96px;
+    float: right;
+}
+
+/*#msg2Dis{
+  text-align: center;
+  background-color: : #AAAAAA;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}*/
+
+#textctrl{
+  //text-align: center;
+  padding-left: 20px;
+}
+
+#userTag{
+  background-color: #89cff0;
+  height: 30px;
+  /*float: left;*/
+  padding: 2px 12px 0px 12px;
+}
+
+#timeStamp{
+
+  height: 30px;
+  background-color: #89cff0;
+  /*float: right;*/
+  padding: 2px 40px 0px 260px;
+}
+
+#userTag, #timeStamp{
+  display: inline-block;
+}
+
+#msgContent{
+  height: 30px;
+  display: block;
+  background-color: #89cff0;
+}
+
+#wrapper{
+  border: 2px;
+  background-color: #89cff0;
+}
+
+#msgWrapper{
+  background-color: #89cff0;
+  margin-bottom: 2px;
+}
+
+#msg{
+  padding: 20px 0px 0px 0px;
+}
+
+#p_35{
+  text-align: center;
+  text-decoration-color: 'red';
+}
