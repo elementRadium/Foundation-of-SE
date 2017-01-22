@@ -1,0 +1,15 @@
+{
+    "name": "FSE Chatroom",
+    "description": "oh my, I just finish my first assignment in my favourite course!",
+    "version": "1.0.0",
+    "main": "server.js",
+    "dependencies": {
+        "express": "3.4.x",
+        "socket.io": "0.9.x"
+        "redis": "2.11.x"
+    },
+    "engines": {
+        "node": "0.10.x",
+        "npm": "1.2.x"
+    }
+}
